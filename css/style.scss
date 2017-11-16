@@ -1,0 +1,9 @@
+$back-light: #f8f9fa;
+$back-dark: #343a40;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $back-light;
+}
