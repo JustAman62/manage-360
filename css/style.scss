@@ -1,9 +1,21 @@
-$back-light: #f8f9fa;
-$back-dark: #343a40;
-* {
-  box-sizing: border-box;
+a {
+  text-decoration: none;
 }
 
-body {
-  background-color: $back-light;
+div.inner-col {
+  flex-grow: 1;
+  min-height: 800px;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.bg-inprogress {
+    background-color: #e5e5e5;
+}
+
+.col {
+  padding:2rem;
 }
