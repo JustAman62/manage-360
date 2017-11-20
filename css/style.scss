@@ -36,8 +36,25 @@ div.card-col {
 }
 .task {
   margin-top: 0.5rem;
-  padding: 0.1rem;
   width: 100%;
-  border: solid lightgray 1px;
   line-height: 1em;
+  border: solid lightgray 1px;
+  border-radius: 6px;
+  .task-header {
+    padding: 0.2rem 0.5rem;
+  }
+  .task-body {
+    padding: 0.5rem;
+  }
+  .task-footer {
+    display: flex;
+    height: 40px;
+    button {
+      border: none;
+      border-top: solid lightgray 1px;
+      box-shadow: none;
+      margin: 0;
+      background-color: whitesmoke;
+    }
+  }
 }
